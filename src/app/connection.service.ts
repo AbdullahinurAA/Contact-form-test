@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 providedIn: 'root'
 })
 export class ConnectionService {
-url: string = 'https://abdullahinuraa.github.io/Contact-form-test/send';
+url: string = '/send';
 constructor(private http: HttpClient) { }
 
 sendMessage(messageContent: any) {
